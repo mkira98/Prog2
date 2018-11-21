@@ -1,0 +1,105 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'C:\Users\Kira\PycharmProjects\2.Felev\Harmadik Félév\Felhasznaloifelulet.ui'
+#
+# Created by: PyQt5 UI code generator 5.11.3
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(922, 686)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.Marka = QtWidgets.QLabel(self.centralwidget)
+        self.Marka.setGeometry(QtCore.QRect(40, 40, 91, 31))
+        self.Marka.setObjectName("Marka")
+        self.Uzemanyag = QtWidgets.QLabel(self.centralwidget)
+        self.Uzemanyag.setGeometry(QtCore.QRect(40, 120, 91, 31))
+        self.Uzemanyag.setObjectName("Uzemanyag")
+        self.Szin_2 = QtWidgets.QLabel(self.centralwidget)
+        self.Szin_2.setGeometry(QtCore.QRect(40, 160, 91, 31))
+        self.Szin_2.setObjectName("Szin_2")
+        self.Tipus_2 = QtWidgets.QLabel(self.centralwidget)
+        self.Tipus_2.setGeometry(QtCore.QRect(40, 80, 91, 31))
+        self.Tipus_2.setObjectName("Tipus_2")
+        self.Rendszam_2 = QtWidgets.QLabel(self.centralwidget)
+        self.Rendszam_2.setGeometry(QtCore.QRect(40, 200, 91, 31))
+        self.Rendszam_2.setObjectName("Rendszam_2")
+        self.Engedely_2 = QtWidgets.QLabel(self.centralwidget)
+        self.Engedely_2.setGeometry(QtCore.QRect(40, 240, 71, 16))
+        self.Engedely_2.setObjectName("Engedely_2")
+        self.Marka_2 = QtWidgets.QLineEdit(self.centralwidget)
+        self.Marka_2.setGeometry(QtCore.QRect(200, 40, 113, 22))
+        self.Marka_2.setObjectName("Marka_2")
+        self.Tipus = QtWidgets.QLineEdit(self.centralwidget)
+        self.Tipus.setGeometry(QtCore.QRect(200, 80, 113, 22))
+        self.Tipus.setObjectName("Tipus")
+        self.Szin = QtWidgets.QLineEdit(self.centralwidget)
+        self.Szin.setGeometry(QtCore.QRect(200, 160, 113, 22))
+        self.Szin.setObjectName("Szin")
+        self.Rendszam = QtWidgets.QLineEdit(self.centralwidget)
+        self.Rendszam.setGeometry(QtCore.QRect(200, 200, 113, 22))
+        self.Rendszam.setObjectName("Rendszam")
+        self.Uzemanyag_2 = QtWidgets.QComboBox(self.centralwidget)
+        self.Uzemanyag_2.setGeometry(QtCore.QRect(200, 120, 111, 21))
+        self.Uzemanyag_2.setObjectName("Uzemanyag_2")
+        self.Uzemanyag_2.addItem("")
+        self.Uzemanyag_2.addItem("")
+        self.Uzemanyag_2.addItem("")
+        self.Engedely = QtWidgets.QCheckBox(self.centralwidget)
+        self.Engedely.setGeometry(QtCore.QRect(200, 240, 121, 20))
+        self.Engedely.setObjectName("Engedely")
+        self.Adatok = QtWidgets.QTextBrowser(self.centralwidget)
+        self.Adatok.setGeometry(QtCore.QRect(40, 290, 841, 341))
+        self.Adatok.setObjectName("Adatok")
+        self.Felvesz = QtWidgets.QPushButton(self.centralwidget)
+        self.Felvesz.setGeometry(QtCore.QRect(390, 120, 93, 28))
+        self.Felvesz.setObjectName("Felvesz")
+        self.Modosit = QtWidgets.QPushButton(self.centralwidget)
+        self.Modosit.setGeometry(QtCore.QRect(590, 120, 93, 28))
+        self.Modosit.setObjectName("Modosit")
+        self.Torol = QtWidgets.QPushButton(self.centralwidget)
+        self.Torol.setGeometry(QtCore.QRect(780, 120, 93, 28))
+        self.Torol.setObjectName("Torol")
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 922, 26))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.Marka.setText(_translate("MainWindow", "Márka:"))
+        self.Uzemanyag.setText(_translate("MainWindow", "Üzemanyag:"))
+        self.Szin_2.setText(_translate("MainWindow", "Szín:"))
+        self.Tipus_2.setText(_translate("MainWindow", "Típus:"))
+        self.Rendszam_2.setText(_translate("MainWindow", "Rendszám:"))
+        self.Engedely_2.setText(_translate("MainWindow", "Engedély:"))
+        self.Uzemanyag_2.setItemText(0, _translate("MainWindow", "Benzin"))
+        self.Uzemanyag_2.setItemText(1, _translate("MainWindow", "Elektromos"))
+        self.Uzemanyag_2.setItemText(2, _translate("MainWindow", "Diesel"))
+        self.Engedely.setText(_translate("MainWindow", "Engedélyezve"))
+        self.Felvesz.setText(_translate("MainWindow", "Felvesz"))
+        self.Modosit.setText(_translate("MainWindow", "Módosít"))
+        self.Torol.setText(_translate("MainWindow", "Töröl"))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec_())
